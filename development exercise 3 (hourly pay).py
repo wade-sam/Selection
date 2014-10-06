@@ -1,18 +1,25 @@
 #Sam Wade
 # Development exercise 3: rate of pay
 # 30/9/14
+#
 
-hours = int(input("please enter the amount of hours ouve worked this week"))
-money_hour = int(input("please enter the amount of money ou earn per hour"))
-if hours <= 39:
-        total_money = money_hour * hours
-        print("you will get £{0} this week.".format(total_money))
+hours_worked = int(input("Please enter how many hours you have worked this week"))
+wages = int(input("please enter your hourly pay"))
 
-elif 40 < hours <= 60:
-              extra_hours = 1.5 * total_money
-              print("you will get £{1} this week.".format(extra_hours))
-else:
-    print("your entry is invalid")
-    
+if hours_worked <=39:
+        total_money = hours_worked * wages
+        print("You will earn £{0} this week.".format(total_money))
+elif 40<hours_worked<=60:
+       
+        hours_worked1 = hours_worked - hours_worked1
+        hours_worked1 * 1.5
+        total_hours = hours_worked1 + hours_worked
+        total_hours *wages
+        print("You will earn £{1} this week.".format(total_hours))
+        
+        
+        
+        
+        
             
 
